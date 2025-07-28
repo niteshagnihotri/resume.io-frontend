@@ -17,7 +17,7 @@ export default function ResumePreview({
   } = data;
 
   return (
-    <div className="bg-white p-6 rounded shadow-inner flex justify-evenly flex-col text-black font-sans text-sm space-y-3 leading-relaxed overflow-auto">
+    <div className="bg-white px-10 py-6 rounded shadow-inner flex justify-evenly flex-col text-black font-sans text-sm space-y-3 leading-relaxed overflow-auto">
       {/* Personal info */}
       <div className="text-center">
           <h1 className="text-2xl font-semibold">
@@ -193,7 +193,7 @@ export default function ResumePreview({
               </div>
               <ul className="list-disc pl-5 text-gray-800 ">
                 {exp.description.map((point, idx) => (
-                  <li key={idx} className="leading-tight text-justify text-xs">
+                  <li key={idx} className="text-justify text-xs">
                     {point}
                   </li>
                 ))}
