@@ -67,4 +67,4 @@ export default tseslint.config([
   },
 ])
 ```
-# resume.io-frontend
+# resume.io-frontend - One stop solution for resume building
